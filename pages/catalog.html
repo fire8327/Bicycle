@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Каталог</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <header class="w-100 d-flex flex-column gap-4">
+        <p class="w-100 header_title text-center">Актуальные новинки уже в нашем интернет магазине!</p>
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="../index.html"><img src="../assets/images/header/logo.png" alt="" class="logo"></a>
+            <div class="nav_left d-flex flex-column w-100" id="menu">
+                <div class="d-flex flex-column flex-lg-row align-items-center preform">
+                    <form class="col-12 col-lg-7 form_header">
+                        <input type="text" class="form_input">
+                        <img src="../assets/images/icons/search.png" alt="" class="form_img">
+                        <button class="form_button">Поиск</button>
+                    </form>
+                    <div class="col-12 col-lg-5 d-flex flex-column nav_contacts">
+                        <a href="tel:+7 (812) 584-12-35" class="d-flex align-items-center gap-1 text-decoration-none">
+                            <img src="../assets/images/icons/phone.png" alt="">
+                            <span style="color:#171717;">+7 (812) 584-12-35</span>
+                        </a>
+                        <div class="d-flex align-items-center gap-1">
+                            <img src="../assets/images/icons/adress.png" alt="">
+                            <p>г.Санкт-Петербург, пр. Ветеранов, д.175, ст. 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_grid">
+                    <a href="" class="nav_link_active">Каталог</a>
+                    <a href="" class="nav_link">Услуги</a>
+                    <a href="" class="nav_link">Новости</a>
+                    <a href="" class="nav_link">О компании</a>
+                    <a href="" class="nav_link">Корзина</a>
+                </div>
+            </div>
+            <button type="button" id="toggler" class="toggler">
+                <img src="../assets/images/icons/menu.png" alt="">
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">  
+        <div class="row gap-4 gap-md-0">            
+            <p class="text-center text-md-start category_title col-12 mt-4 mt-md-0 catalog_kid col-12">Каталог товаров</p>
+            <img src="../assets/images/main.png" alt="" class="col-12">
+        </div>
+        <div class="row gap-4 gap-md-0 mt-4 mt-md-0 categories">
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4 category">
+                <p class="text-center category_title">Городской</p>
+                <div class="d-flex flex-column product_card">
+                    <div class="d-flex product_header">
+                        <p class="new d-flex justify-content-center align-items-center">NEW</p>
+                        <p class="recomend d-flex justify-content-center align-items-center">Рекомендуем</p>
+                    </div>
+                    <a href="product.html"><img src="../assets/images/products/1.png" alt="" class="w-100 product_img"></a>
+                    <p class="w-100 product_title">Велосипед Fuji 2015 MTB мод. Nevada COMP 27-5 1.7</p>
+                    <p class="w-100 product_description">Идеальный прогулочный спортивный велосипед для новых райдеров, которые хотят окунуться в трейловую езду, решение для поездок на работу</p>
+                    <p class="product_price">49 990 ₽</p>
+                    <button class="w-full d-flex justify-content-center align-items-center product_button">Добавить в корзину</button>
+                </div>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4 category">
+                <p class="text-center category_title">Спортивный</p>
+                <div class="d-flex flex-column product_card">
+                    <div class="d-flex product_header">
+                        <p class="new d-flex justify-content-center align-items-center">NEW</p>
+                        <p class="recomend d-flex justify-content-center align-items-center">Рекомендуем</p>
+                    </div>
+                    <a href="product.html"><img src="../assets/images/products/2.png" alt="" class="w-100 product_img"></a>
+                    <p class="w-100 product_title">Велосипед Jamis <br> KOMODO 24</p>
+                    <p class="w-100 product_description">Отпрыск легендарного Komodo, построенный на базе алюминиевой рамы с заниженной верхней трубой и адаптированной к колесам 24 дюйма</p>
+                    <p class="product_price">72 000 ₽</p>
+                    <button class="w-full d-flex justify-content-center align-items-center product_button">Добавить в корзину</button>
+                </div>
+            </div>
+            <div class="d-flex flex-column col-12 col-md-6 col-lg-4 category">
+                <p class="text-center category_title">Горный</p>
+                <div class="d-flex flex-column product_card">
+                    <div class="d-flex product_header">
+                        <p class="new d-flex justify-content-center align-items-center">NEW</p>
+                        <p class="recomend d-flex justify-content-center align-items-center">Рекомендуем</p>
+                    </div>
+                    <a href="product.html"><img src="../assets/images/products/3.png" alt="" class="w-100 product_img"></a>
+                    <p class="w-100 product_title">Велосипед Giant Contend 3 <br> Disc 2022</p>
+                    <p class="w-100 product_description">Giant Contend 3 (2022) - высококачественный и мощный велосипед, который станет верным другом для каждого любителя скоростных поездок. </p>
+                    <p class="product_price">36 000 ₽</p>
+                    <button class="w-full d-flex justify-content-center align-items-center product_button">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+        <div class="row gap-4 gap-md-0">
+            <p class="text-center category_title col-12 mt-4 mt-md-0 catalog_kid">Детские велосипеды</p>
+            <div class="d-flex flex-column product_card col-12 col-md-6 col-lg-4">
+                <div class="d-flex product_header">
+                    <p class="new d-flex justify-content-center align-items-center">NEW</p>
+                    <p class="recomend d-flex justify-content-center align-items-center">Рекомендуем</p>
+                </div>
+                <a href="product.html"><img src="../assets/images/products/4.png" alt="" class="w-100 product_img"></a>
+                <p class="w-100 product_title">Прогулочный велосипед <br> Corratec BOW 24</p>
+                <p class="w-100 product_description">Corratec BOW - облегченный детский велосипед для прогулочного и околоспортивного катания. Благодаря малому весу и специально разработанной детской...</p>
+                <p class="product_price">30 000 ₽</p>
+                <button class="w-full d-flex justify-content-center align-items-center product_button">Добавить в корзину</button>
+            </div>            
+            <div class="d-flex flex-column product_card col-12 col-md-6 col-lg-4">
+                <div class="d-flex product_header">
+                    <p class="new d-flex justify-content-center align-items-center">NEW</p>
+                    <p class="recomend d-flex justify-content-center align-items-center">Рекомендуем</p>
+                </div>
+                <a href="product.html"><img src="../assets/images/products/5.png" alt="" class="w-100 product_img"></a>
+                <p class="w-100 product_title">Прогулочный велосипед <br> GT 16 GRUNGE</p>
+                <p class="w-100 product_description">Предназначенные для маленьких велосипедистов 4-6 лет, GRUNGE и SIREN с колесами 16 дюймов хорошо знают, что детская любознательность и тяга к исследованиям...</p>
+                <p class="product_price">20 000 ₽</p>
+                <button class="w-full d-flex justify-content-center align-items-center product_button">Добавить в корзину</button>
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <form method="POST" action="#" class="subscribe_form row row-gap-2 d-flex align-items-center justify-content-between column-gap-3">
+                <p class="title_footer col-xl-4 col-md-5 col-12">Подпишитесь на нашу рассылку<br> и получите дополнительную скидку</p>
+                <div class="input_block col-xl-7 col-md-6 col-12">
+                    <input type="email" class="input_form" name="email" placeholder="Ivanov@yandex.ru">
+                    <button class="btn_subscribe" type="submit">Подписаться</button>
+                </div>
+            </form>
+            <div class="footer_bottom row row-gap-3 d-flex justify-content-between">
+                <a href="#" class="col-lg-3 col-md-3 col-sm-12 col-12 d-flex justify-content-center align-items-end"><img src="../assets/images/footer/logo.png" alt=""></a>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-6">
+                    <p class="footer_title">Каталог</p>
+                    <ul class="footer_list">
+                        <li><a href="#">Спортивные</a></li>
+                        <li><a href="#">Горные</a></li>
+                        <li><a href="#">Детские</a></li>
+                        <li><a href="#">Городские</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-6">
+                    <p class="footer_title">Услуги</p>
+                    <ul class="footer_list">
+                        <li><a href="#">Прокат</a></li>
+                        <li><a href="#">Ремонт</a></li>
+                        <li><a href="#">Утилизация</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-6">
+                    <p class="footer_title">Новости</p>
+                    <ul class="footer_list">
+                        <li><a href="#">Новости</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                    <p class="footer_title">О компании</p>
+                    <ul class="footer_list">
+                        <li><a href="#">Наша команда</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Отзывы клиентов</a></li>
+                        <li><a href="#">Вопрос - ответ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-12">
+                    <p class="footer_title">Контакты</p>
+                    <ul class="footer_list">
+                        <li>
+                            <a href="tel:78125841235" class="d-flex column-gap-2 align-items-center">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.57193 9.33292L1.37803 6.09102C0.0720884 4.16124 0.569736 1.53907 2.49189 0.221933C3.00869 -0.132201 3.71497 0.00184103 4.0661 0.520695L4.5114 1.17871C4.8729 1.7129 4.7432 2.43782 4.2189 2.81352L3.72321 3.14897C3.1904 3.46953 3.03556 4.17147 3.38406 4.68644L5.6644 8.05608C5.96448 8.49952 6.56567 8.61864 7.01217 8.32314L7.33886 8.10693C8.0509 7.6357 9.00961 7.82567 9.48815 8.53281L9.73066 8.89117C10.0766 9.40232 9.94476 10.0969 9.43563 10.4458C7.51061 11.7649 4.87981 11.2656 3.57193 9.33292Z" fill="#FF4B4B"/>
+                                </svg>
+                                +7 (812) 584-12-35
+                            </a>
+                        </li>
+                        <li class="d-flex column-gap-2 align-items-center">
+                            <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.67717 12.8206C7.82377 10.9818 10.2115 7.50068 10.2115 4.97822C10.2115 2.22889 7.92556 0.00012207 5.10574 0.00012207C2.28592 0.00012207 0 2.22889 0 4.97822C0 7.50068 2.38771 10.9818 4.53431 12.8206C4.86504 13.1039 5.34644 13.1039 5.67717 12.8206ZM5.10574 8.16931C6.79763 8.16931 8.16918 6.79776 8.16918 5.10586C8.16918 3.41397 6.79763 2.04242 5.10574 2.04242C3.41385 2.04242 2.0423 3.41397 2.0423 5.10586C2.0423 6.79776 3.41385 8.16931 5.10574 8.16931Z" fill="#FF4B4B"/>
+                            </svg>
+                            г.Санкт-Петербург, пр. Ветеранов, д.175, стр. 1
+                        </li>
+                        <li>
+                            <a href="mailto:Manager1@bikycle.ru" class="d-flex column-gap-2 align-items-center">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.28916 3.79983L7.45482 2.96964H8.58133L7.93524 6.17864C7.86898 6.49795 7.83584 6.73742 7.83584 6.89707C7.83584 7.12059 7.89106 7.28556 8.00151 7.39199C8.11195 7.48779 8.23343 7.53568 8.36596 7.53568C8.71938 7.53568 9.0507 7.32281 9.35994 6.89707C9.54769 6.64163 9.69127 6.30104 9.79066 5.8753C9.89006 5.44957 9.93976 5.07172 9.93976 4.74178C9.93976 3.75194 9.58082 2.87385 8.86295 2.10752C8.15612 1.3412 7.14006 0.958032 5.81476 0.958032C4.47841 0.958032 3.35191 1.39973 2.43524 2.28314C1.51857 3.16655 1.06024 4.26282 1.06024 5.57197C1.06024 6.50859 1.31426 7.35474 1.82229 8.11043C2.33032 8.86611 3.0261 9.40361 3.90964 9.72291C4.46185 9.93578 5.09136 10.0422 5.79819 10.0422C7.01305 10.0422 8.13404 9.82402 9.16114 9.38764L9.44277 10.3775C8.40462 10.7926 7.21737 11.0001 5.88102 11.0001C4.24649 11.0001 2.91014 10.5691 1.87199 9.70694C0.623996 8.65324 0 7.2696 0 5.556C0 3.94884 0.546687 2.62373 1.64006 1.58067C2.73343 0.526973 4.10843 0.00012207 5.76506 0.00012207C7.25602 0.00012207 8.49849 0.431182 9.49247 1.2933C10.4975 2.14478 11 3.28895 11 4.72581C11 5.85402 10.7349 6.75871 10.2048 7.43989C9.6747 8.11043 9.03966 8.4457 8.2997 8.4457C7.95733 8.4457 7.6757 8.35523 7.45482 8.17429C7.24498 7.99335 7.10693 7.75387 7.04066 7.45585C6.55472 8.17961 5.86998 8.54149 4.98644 8.54149C4.41215 8.54149 3.87651 8.33926 3.37952 7.93481C2.89357 7.51972 2.6506 6.87047 2.6506 5.98706C2.6506 4.99722 2.94879 4.21493 3.54518 3.64018C4.14157 3.06543 4.80974 2.77806 5.5497 2.77806C6.38906 2.77806 6.96888 3.11865 7.28916 3.79983ZM5.15211 7.42392C5.62701 7.42392 6.04116 7.2217 6.39458 6.81725C6.75904 6.4128 6.94126 5.89659 6.94126 5.26863C6.94126 4.81096 6.81978 4.47037 6.57681 4.24686C6.33384 4.0127 6.03564 3.89562 5.68223 3.89562C5.19628 3.89562 4.78213 4.08188 4.43976 4.4544C4.09739 4.82692 3.92621 5.33249 3.92621 5.9711C3.92621 6.43941 4.04217 6.80128 4.2741 7.05673C4.51707 7.30153 4.80974 7.42392 5.15211 7.42392Z" fill="#FF4B4B"/>
+                                </svg>
+                                Manager1@bikycle.ru
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer_copyright text-center">Авторские права © 2023 ООО "БИКУКЛЕ"</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
